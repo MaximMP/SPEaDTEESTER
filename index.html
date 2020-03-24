@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+    
+    <div class="setings">
+        <form id="setings-form">
+    <labeL for="difficulty">Уровень игры</labeL>
+    <select id="difficulty">
+       
+        <option value="easy">Easy</option>
+        <option value="middle">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+</form>
+    
+    </div>
+    <div class="container">
+        <div class="time-container">
+            <div class ="time-left">Time left:<span id="time">10s</span></div>
+            <div class="score-container">Score: <span id="score">0</span></div>
+         </div>
+        <h2 class="container-title">Игра на скорость</h2>
+        <div class="title">Напишы слово:</div>
+        <h1 id="word"></h1>
+        <input 
+        type="text"
+        id="text"
+        autocomplete="off"
+        placeholder="Напишы слово"
+    >
+   
+ 
+    <div class="end-game" id="end-game"></div>
+</div>
+<script src="SCript.js"></script>
+</body>
+</html>

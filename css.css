@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(76, 13, 136);
+}
+.setings{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background:blue ;
+    color:rgb(76, 13, 136); 
+}
+.container{
+    width: 300px;
+    margin: 0 auto;
+    background: rgb(132, 0, 255);
+    padding: 15px;
+}
+.container-title{
+    background:blue ;
+    color:rgb(76, 13, 136);
+    text-align: center;
+}
+.time-container{
+    display: flex;
+    color:rgb(76, 13, 136)
+}
+.title{
+    color:blue;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+#text{
+    width: 100%;
+    padding: 5px;
+
+}
